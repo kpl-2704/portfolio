@@ -10,14 +10,16 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     -webkit-font-smoothing:antialiased;
-}
-html{
-    scroll-behavior: smooth;
 }
 
 /*------------- header portion------------ */
@@ -523,9 +525,26 @@ footer .footer-social img:hover{
     }
 }
 
-.main-site-wrapper
+.site-main-wrapper
 {
     position: relative;
+}
+.list{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+   
+    z-index: 11;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+.list img{
+    width: 25px;
+    height: 25px;
+    
 }
 .scroll-down
 {
